@@ -16,6 +16,9 @@ paths:
       summary: Echo endpoint (GET)
       description: Returns a response containing a message and timestamp
       operationId: echoGet
+      security:
+        - default: []
+      
       responses:
         '200':
           description: Successful response
